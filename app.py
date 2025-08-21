@@ -3,7 +3,6 @@ import pandas as pd
 import plotly.express as px
 
 # 1. Leer el archivo CSV en un DataFrame
-# Cambia "tus_datos.csv" por el nombre de tu dataset
 df = pd.read_csv("vehicles_us.csv")
 
 # 2. Encabezado de la aplicación
