@@ -1,16 +1,18 @@
-# Sprint 7 – Proyecto Final de Análisis de Datos  
+# Sprint 7 – Proyecto Final de la aplicacion   
 
-En este proyecto integré todo el flujo de trabajo de un analista de datos, desde la recolección y limpieza hasta la visualización final.  
-Usé **Python, SQL y Power BI** para analizar un conjunto de datos empresariales, aplicando técnicas de transformación, consultas relacionales y diseño de dashboards interactivos.  
+Descripción del Proyecto
+Este proyecto es una aplicación web interactiva desarrollada con Streamlit, creada como parte del Sprint 7 del bootcamp de análisis de datos.
+Su objetivo es permitir la visualización dinámica y exploratoria de datos del archivo vehicles_us.csv, el cual contiene información sobre vehículos en Estados Unidos.
+La aplicación ofrece una interfaz intuitiva donde el usuario puede elegir qué tipo de gráfico desea visualizar, facilitando el análisis de las variables sin necesidad de escribir código.
 
-**Objetivo:** desarrollar una solución completa que permita identificar métricas clave (KPIs), analizar el comportamiento de los usuarios y presentar resultados visualmente atractivos.  
-
-**Herramientas utilizadas:**  
-- Python (Pandas, NumPy)  
-- SQL (consultas, joins, agrupaciones)  
-- Power BI (dashboards, segmentaciones, DAX)  
-
-**Resultados:**  
-- Integración exitosa de fuentes de datos limpias y consistentes.  
-- Dashboard final con análisis de rentabilidad y comportamiento de clientes.  
-- Demostración de un flujo analítico completo y automatizado.  
+⚙️ Funcionalidades principales
+Carga de datos:
+El programa lee el archivo vehicles_us.csv y lo convierte en un DataFrame de pandas para su análisis.
+Interfaz interactiva:
+A través de casillas de verificación (checkboxes), el usuario puede seleccionar el tipo de visualización que desea explorar:
+✅ Histograma: muestra la distribución de cualquier columna seleccionada.
+✅ Diagrama de dispersión: permite comparar dos variables numéricas entre sí.
+Visualizaciones con Plotly:
+Los gráficos se generan con Plotly Express, lo que proporciona visualizaciones interactivas y atractivas.
+Diseño adaptable:
+Si el usuario no selecciona ninguna opción, la aplicación muestra un mensaje informativo que invita a comenzar la exploración.
